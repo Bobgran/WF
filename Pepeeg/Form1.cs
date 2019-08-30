@@ -16,5 +16,10 @@ namespace Pepeeg
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "ehejej";
+        }
     }
 }
